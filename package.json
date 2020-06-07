@@ -9,17 +9,31 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
     "express": "^4.17.1",
+    "google-maps-react": "^2.0.6",
     "ignore-styles": "^5.0.1",
+    "next": "^9.4.2",
+    "next-redux-wrapper": "^6.0.2",
     "react": "^16.13.1",
+    "react-axios": "^2.0.3",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5"
   },
-  "scripts": {
+  "scriptsxx": {
+    "dev": "next",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "eslintConfig": {
     "extends": "react-app"
